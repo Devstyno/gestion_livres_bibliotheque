@@ -28,6 +28,7 @@ données SQLite
 obtenez après avoir exécuter chaque endpoint
 3. Déployer votre API sur la plateforme Cloud Heroku
 Pour vous aider, on vous donne le Modèle Relationnel suivant :
+
     `
 
         CATÉGORIES(id, libelle_catégorie)
