@@ -1,11 +1,22 @@
 # Gestion des Livres d'une Bibliothèque
 
 On souhaite mettre en place une API permettant de gérer livres d’une
-bibliothèque. Les livres sont regroupés par catégories. Chaque livre
-dispose d’un code ISBN unique, d’un titre, de la date de publication, le
-nom de l’auteur, le nom de l’éditeur. La catégorie est caractérisée par un id
-et le libellé de la catégorie. (Exemple de catégorie : Fixion, Policier, Conte,
-Harlequin, Science etc....)
+bibliothèque. Les livres sont regroupés par catégories.
+
+## Caracteristiques
+
+Chaque livre dispose de:
+
+- code ISBN unique,
+- titre,
+- date de publication,
+- nom de l’auteur,
+- nom de l’éditeur.
+
+La catégorie est caractérisée par
+
+- un id
+- le libellé de la catégorie. (Exemple de catégorie : Fixion, Policier, Conte, Harlequin, Science, etc.)
 
 ## L’API doit permettre de
 
