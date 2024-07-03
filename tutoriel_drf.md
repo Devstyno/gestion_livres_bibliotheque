@@ -2,7 +2,7 @@
 
 1. **Installer Django et Django REST Framework**
 
-Assurez-vous d'avoir Python installé, puis créez un environnement virtuel. Ensuite, installez Django et Django REST Framework via pip :
+    S'assurez d'avoir Python installé, puis créer un environnement virtuel. Ensuite, installer Django et Django REST Framework via pip :
 
     ```bash
         pip install django djangorestframework
@@ -10,52 +10,52 @@ Assurez-vous d'avoir Python installé, puis créez un environnement virtuel. Ens
 
 2. **Créer un projet Django**
 
-Utilisez la commande Django pour créer un nouveau projet :
+    Utiliser la commande Django pour créer un nouveau projet :
 
     ```bash
         django-admin startproject nom_du_projet
     ```
 
-Remplacez `nom_du_projet` par le nom que vous souhaitez donner à votre projet.
+    Remplacer `nom_du_projet` par le nom qu'on souhaite donner à notre projet.
 
 3. **Configurer la base de données**
 
-Allez dans le répertoire du projet et configurez la base de données dans le fichier `settings.py`.
+    Aller dans le répertoire du projet et configurer la base de données dans le fichier `settings.py`.
 
 4. **Créer une application Django**
 
-Utilisez la commande Django pour créer une nouvelle application à l'intérieur de votre projet :
+    Utiliser la commande Django pour créer une nouvelle application à l'intérieur de notre projet :
 
    ```bash
-       python manage.py startapp nom_de_l_application
+        python manage.py startapp nom_de_l_application
    ```
 
-Remplacez `nom_de_l_application` par le nom de votre application.
+    Remplacer `nom_de_l_application` par le nom de notre application.
 
 5. **Configurer DRF dans votre application**
 
-    - Ajoutez `'rest_framework'` aux `INSTALLED_APPS` dans `settings.py`.
-    - Configurez les paramètres de DRF selon vos besoins (par exemple, `DEFAULT_AUTHENTICATION_CLASSES`, `DEFAULT_PERMISSION_CLASSES`).
+    - Ajouter `'rest_framework'` aux `INSTALLED_APPS` dans `settings.py`.
+    - Configurer les paramètres de DRF selon nos besoins (par exemple, `DEFAULT_AUTHENTICATION_CLASSES`, `DEFAULT_PERMISSION_CLASSES`).
 
 6. **Créer des modèles**
 
-Définissez vos modèles dans le fichier `models.py` de votre application.
+    Définir nos modèles dans le fichier `models.py` de notre application.
 
 7. **Créer des serializers**
 
-Créez des serializers dans `serializers.py` pour transformer vos modèles en JSON et vice versa.
+    Créer des serializers dans `serializers.py` pour transformer nos modèles en JSON et vice versa.
 
 8. **Configurer les vues**
 
-Créez des vues basées sur les classes ou des vues fonctionnelles dans `views.py`. Utilisez les mixins et les classes génériques de DRF pour simplifier la création de vues RESTful.
+    Créer des vues basées sur les classes ou des vues fonctionnelles dans `views.py`. Utiliser les mixins et les classes génériques de DRF pour simplifier la création de vues RESTful.
 
 9. **Configurer les routes (URLs)**
 
-Ajoutez des routes (URLs) dans `urls.py` de votre application pour associer les vues aux endpoints API.
+    Ajouter des routes (URLs) dans `urls.py` de notre application pour associer les vues aux endpoints API.
 
 10. **Effectuer les migrations**
 
-Initialisez la base de données avec les tables nécessaires en exécutant les migrations :
+    Initialiser la base de données avec les tables nécessaires en exécutant les migrations :
 
     ```bash
         python manage.py makemigrations
@@ -64,7 +64,7 @@ Initialisez la base de données avec les tables nécessaires en exécutant les m
 
 11. **Lancer le serveur de développement**
 
-Démarrez le serveur de développement Django pour tester votre projet :
+    Démarrer le serveur de développement Django pour tester notre projet :
 
     ```bash
         python manage.py runserver
@@ -72,4 +72,4 @@ Démarrez le serveur de développement Django pour tester votre projet :
 
 12. **Tester les endpoints API**
 
-    Utilisez un outil comme Postman ou curl pour tester les endpoints que vous avez créés.
+    Utiliser un outil comme Postman ou curl pour tester les endpoints que nous avons créés.
