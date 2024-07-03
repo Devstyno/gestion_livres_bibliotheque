@@ -6,7 +6,7 @@ class LivreListSerializer(ModelSerializer):
 
     class Meta:
         model = Livre
-        fields = ('id', 'isbn', 'titre', 'auteur', 'editeur')
+        fields = ('id', 'isbn', 'titre', 'categorie', 'auteur', 'editeur')
 
 class LivreDetailSerializer(ModelSerializer):
 
